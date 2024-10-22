@@ -40,16 +40,11 @@ export const Navbar = () => {
 
       <div className="nav-menu-right">
 
-        {/* <div className="nav-search">
-          <img src={search_icon} alt="" />
-          <input class="search-input" type="search" />
-        </div> */}
-
-        <div className="nav-search">
-          <form action="" className="search-bar">
-            <button type="submit"><img src={search_icon} alt="" /></button>
-            <input type="text" placeholder="Search" name="q" />
-          </form>
+        <div class="search-container">
+          <img src={search_icon} alt="Search" />
+          <input type="text" class="search-input" placeholder="Search" />
+          <button class="search-button">
+          </button>
         </div>
 
         <div className="nav-login-cart">
