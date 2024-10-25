@@ -10,14 +10,14 @@ export const Hero = () => {
     return (
 
         <div className="shopping-area">
-            <div className="product">
+            {/* <div className="product">
                 <img src={image_1} alt="Product 1" />
                 <a href="" className='overlay-text'>SHOP ALL</a>
             </div>
             <div className="product">
                 <img src={image_2} alt="Product 2" />
                 <a href="" className='overlay-text'>SHOP NATIONAL TEAMS</a>
-            </div>
+            </div> */}
             <div className="product">
                 <img src={image_3} alt="Product 3" />
                 <a href="" className='overlay-text'>SHOP BEST SELLERS</a>
