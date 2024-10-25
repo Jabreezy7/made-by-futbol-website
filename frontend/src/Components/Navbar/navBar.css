@@ -49,9 +49,14 @@
 }
 
 .nav-login-cart {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
+    position: relative;
 }
 
 .nav-cart-count{
@@ -60,12 +65,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -1.8rem;
-    margin-left: -1.8rem;
     border-radius: .7rem;
-    font-size: .875rem;
-    background: red;
-    color: white;
+    font-size: .7rem;
+    color: black;
+    position: absolute;
 }
 
 
@@ -119,8 +122,20 @@
 }
 
 .search-container:hover {
-    background-color: #e0e0e0;
+    background-color: #e5e5e5;
 }
+
+
+.nav-login-cart:hover {
+    background-color: #e5e5e5;
+}
+
+.nav-login-cart img {
+    width: 2rem;
+    height: auto;
+}
+
+
 
 
 

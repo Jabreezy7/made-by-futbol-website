@@ -3,7 +3,7 @@ import "./navBar.css"
 import { useState } from "react"
 
 import logo from "../Assets/images/Logos/MBF_LOGO.png"
-import cart_icon from "../Assets/images/Icons/grocery-store.png"
+import cart_icon from "../Assets/images/Icons/shopping-bag.png"
 import search_icon from "../Assets/images/Icons/magnifying-glass.png"
 import { Link } from "react-router-dom"
 
@@ -20,17 +20,17 @@ export const Navbar = () => {
       <ul className="nav-menu-left">
         <li
           className={menu === "home" ? "selected" : ""}
-          onClick={() => { setMenu("home") }}><Link to='/'>Home</Link>{menu === "home" ? <hr /> : <></>}
+          onClick={() => { setMenu("home") }}><Link style={{textDecoration:'none', color:'inherit'}} to='/'>Home</Link>{menu === "home" ? <hr /> : <></>}
         </li>
 
         <li
           className={menu === "shop" ? "selected" : ""}
-          onClick={() => { setMenu("shop") }}><Link to='/shop'>Shop</Link>{menu === "shop" ? <hr /> : <></>}
+          onClick={() => { setMenu("shop") }}><Link style={{textDecoration:'none', color:'inherit'}} to='/shop'>Shop</Link>{menu === "shop" ? <hr /> : <></>}
         </li>
 
         <li
           className={menu === "info" ? "selected" : ""}
-          onClick={() => { setMenu("info") }}><Link to='/info'>Info</Link>{menu === "info" ? <hr /> : <></>}
+          onClick={() => { setMenu("info") }}><Link style={{textDecoration:'none', color:'inherit'}} to='/info'>Info</Link>{menu === "info" ? <hr /> : <></>}
         </li>
 
       </ul>
@@ -49,10 +49,9 @@ export const Navbar = () => {
         </div>
 
         <div className="nav-login-cart">
-          <Link to='/cart'><img src={cart_icon} alt="" /></Link>
+          <Link style={{textDecoration:'none'}} to='/cart'><img src={cart_icon} alt="" /></Link>
           <div className="nav-cart-count">0</div>
-        </div>
-        
+        </div>        
 
       </div>
 
