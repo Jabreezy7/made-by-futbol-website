@@ -41,4 +41,12 @@
     text-decoration: none;
     top: 90%;
     padding: 10px;
+    border: 1px solid white;
+}
+
+.overlay-text:hover {
+    /* background-image: linear-gradient(45deg, #333, #555); */
+
+    /* If I ever want to flip text this is a pretty cool effect */
+    transform: rotateY(180deg);
 }
