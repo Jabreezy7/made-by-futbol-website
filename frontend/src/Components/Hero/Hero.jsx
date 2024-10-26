@@ -2,9 +2,9 @@ import React from 'react'
 import './Hero.css'
 
 // import hero_image from '../Assets/images/Photoshoot-Images/muth-edit-front-nobg.png'
-import image_1 from '../Assets/images/Photoshoot-Images/1-MBF-nobg-small.png'
-import image_2 from '../Assets/images/Photoshoot-Images/2-MBF-small.jpg'
-import image_3 from '../Assets/images/Photoshoot-Images/3-MBF-small.jpg'
+import image_1 from '../Assets/images/Photoshoot-Images/Edited-Images/1-MBF-min.jpg'
+import image_2 from '../Assets/images/Photoshoot-Images/Edited-Images/2-MBF-min.png'
+import image_3 from '../Assets/images/Photoshoot-Images/Edited-Images/3-MBF-min.png'
 
 export const Hero = () => {
     return (
