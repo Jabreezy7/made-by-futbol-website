@@ -24,3 +24,9 @@
     display: flex;
     gap: 70px;
 }
+
+.popular img {
+    width: 100%;
+    height: auto;
+    /* width: 400px; */
+}

@@ -1,5 +1,5 @@
 .item{
-    width: 350px;
+    max-width: 400px;
 }
 
 .item p {
@@ -24,7 +24,7 @@
     text-decoration: line-through;
 }
 
-.item:hover {
+/* .item:hover {
     transform: scale(1.05);
     transition: 0.6s;
-}
+} */

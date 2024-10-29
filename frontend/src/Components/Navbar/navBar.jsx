@@ -2,9 +2,9 @@ import React from "react"
 import "./navBar.css"
 import { useState } from "react"
 
-import logo from "../Assets/images/Logos/MBF_LOGO.png"
-import cart_icon from "../Assets/images/Icons/shopping-bag.png"
-import search_icon from "../Assets/images/Icons/magnifying-glass.png"
+import logo from "../Assets/Images/Logos/MBF_LOGO.png"
+import cart_icon from "../Assets/Images/Icons/shopping-bag.png"
+import search_icon from "../Assets/Images/Icons/magnifying-glass.png"
 import { Link } from "react-router-dom"
 
 
