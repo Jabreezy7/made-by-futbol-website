@@ -1,6 +1,9 @@
 import ronaldinho_front_img from "./Shirt-Images/Select-Players/Ronaldinho/Edited-Images/Ronaldinho-barca-front-small.webp";
+import ronaldinho_back_img from "./Shirt-Images/Select-Players/Ronaldinho/Edited-Images/Ronaldinho-barca-back-small.webp";
 import ronaldo_front_img from "./Shirt-Images/Select-Players/R9/Edited-Images/R9-brazil-front-small.webp";
+import ronaldo_back_img from "./Shirt-Images/Select-Players/R9/Edited-Images/R9-brazil-back-small.webp";
 import neymar_front_img from "./Shirt-Images/Select-Players/Neymar/Edited-Images/Neymar-brazil-front-small.webp";
+import neymar_back_img from "./Shirt-Images/Select-Players/Neymar/Edited-Images/Neymar-brazil-back-small.webp";
 
 
 let data_product = [
@@ -9,6 +12,7 @@ let data_product = [
         name: "Ronaldinho Graphic Tee",
         category: "men",
         image: ronaldinho_front_img,
+        image_hover: ronaldinho_back_img,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -17,6 +21,7 @@ let data_product = [
         name: "Ronaldo Graphic Tee",
         category: "men",
         image: ronaldo_front_img,
+        image_hover: ronaldo_back_img,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -25,6 +30,7 @@ let data_product = [
         name: "Neymar Graphic Tee",
         category: "men",
         image: neymar_front_img,
+        image_hover: neymar_back_img,
         new_price: 50.0,
         old_price: 80.5,
     },

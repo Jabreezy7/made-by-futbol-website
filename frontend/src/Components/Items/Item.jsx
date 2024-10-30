@@ -4,7 +4,10 @@ import './Item.css'
 export const Item = (props) => {
     return (
         <div className='item'>
-            <img src={props.image} alt="" />
+            <div className="image-container">
+                <img src={props.image} className="default"  alt="" />
+                <img src={props.image_hover} className="hover"  alt="" />
+            </div>
             <p>{props.name}</p>
             <div className="item-prices">
                 <div className="item-price-new">

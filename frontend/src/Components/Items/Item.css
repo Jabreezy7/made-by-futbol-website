@@ -24,7 +24,24 @@
     text-decoration: line-through;
 }
 
-/* .item:hover {
-    transform: scale(1.05);
-    transition: 0.6s;
-} */
+.default {
+    display: block;
+}
+
+.hover {
+    display: none;
+}
+
+
+.image-container:hover .default {
+    display: none;
+}
+
+
+.image-container:hover .hover {
+    display: block;
+}
+
+
+  
+
