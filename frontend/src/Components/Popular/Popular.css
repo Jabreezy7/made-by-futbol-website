@@ -14,8 +14,7 @@
 
 .popular h1 {
     color: #171717;
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 30px;
     font-family: 'Dela Gothic One', sans-serif;
 }
 
@@ -27,7 +26,7 @@
 }
 
 .popular-item {
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     gap: 70px;
 }

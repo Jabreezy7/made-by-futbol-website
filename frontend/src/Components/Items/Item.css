@@ -1,3 +1,8 @@
+.item-context {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
 .item{
     max-width: 400px;
 }
@@ -9,6 +14,7 @@
 .item-prices {
     display: flex;
     gap: 20px;
+    
 }
 
 .item-price-new {

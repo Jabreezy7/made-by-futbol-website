@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Dela Gothic One';
+    src: url('../Assets/Fonts/DelaGothicOne-Regular.ttf');
+}
+
+
+.featured {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+img {
+    max-height: 450px;
+}
+
+.featured-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text-overlay-1 {
+    position: absolute; /* Position the text overlay absolutely */
+    top: 35%;           /* Center vertically */
+    left: 10%;          /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset the position */
+    color: black;       /* Change text color as needed */
+    text-align: center; /* Center the text */
+}

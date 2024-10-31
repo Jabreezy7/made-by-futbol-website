@@ -3,15 +3,13 @@
     src: url('../Assets/Fonts/streetvertising-bold-public.ttf');
 }
 
-*{
-    font-family: 'Streetvertising';
-}
 
 .navbar {
     display: flex;
     justify-content: space-around;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
+    font-family: 'Streetvertising', sans-serif;
 }
 
 .nav-logo{
@@ -158,6 +156,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    font-family: 'Streetvertising', sans-serif;
 }
 
 
