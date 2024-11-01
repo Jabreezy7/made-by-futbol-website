@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Dela Gothic One';
+    src: url('../Assets/Fonts/DelaGothicOne-Regular.ttf');
+}
+
+
+.new-drops h1 {
+    color: #171717;
+    font-size: 30px;
+    font-family: 'Dela Gothic One', sans-serif;
+}
+
+.new-drops hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+
+#title {
+    text-align: center;
+    padding: 20px;
+}
+
+.new-drops {
+    max-width: 1300px; 
+    margin: 0 auto;
+    
+}
+
+.drops {
+    cursor: pointer;
+}
+
+
+.drops img {
+    width: 100%;
+    height: auto;
+}
+

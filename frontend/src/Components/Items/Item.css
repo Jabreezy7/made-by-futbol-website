@@ -40,12 +40,12 @@
 
 
 .image-container:hover .default {
-    display: none;
+    display: none !important;
 }
 
 
 .image-container:hover .hover {
-    display: block;
+    display: block !important;
 }
 
 

@@ -6,7 +6,7 @@ export const Item = (props) => {
         <div className='item'>
             <div className="image-container">
                 <img src={props.image} className="default" alt="" />
-                <img src={props.image_hover} className="hover" alt="" />
+                <img src={props.image_hover} className="hover" style={{display:'none'}} alt="" />
             </div>
             <div className="item-context">
                 <p>{props.name}</p>
