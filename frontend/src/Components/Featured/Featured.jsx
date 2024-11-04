@@ -16,31 +16,31 @@ export const Featured = () => {
         <div className="featured">
             <div className="featured-1">
                 <img src={featured_imageDynamic4} alt="" />
-                {/* <div className="text-overlay-1">
+                <div className="text-overlay-1">
                     <h1>NEYMAR<br />BRAZIL TEE</h1>
-                    <button>Shop</button>
-                </div> */}
+                    <button>SHOP NOW</button>
+                </div>
             </div>
             <div className="featured-2">
                 <img src={featured_imageDynamic2} alt="" />
-                {/* <div className="text-overlay-2">
+                <div className="text-overlay-2">
                     <h1>NEYMAR<br />BRAZIL TEE</h1>
-                    <button>Shop</button>
-                </div> */}
+                    <button>SHOP NOW</button>
+                </div>
             </div>
             <div className="featured-3">
                 <img src={featured_imageDynamic1} alt="" />
-                {/* <div className="text-overlay-3">
+                <div className="text-overlay-3">
                     <h1>NEYMAR<br />BRAZIL TEE</h1>
-                    <button>Shop</button>
-                </div> */}
+                    <button>SHOP NOW</button>
+                </div>
             </div>
             <div className="featured-4">
                 <img src={featured_imageDynamic3} alt="" />
-                {/* <div className="text-overlay-4">
+                <div className="text-overlay-4">
                     <h1>NEYMAR<br />BRAZIL TEE</h1>
-                    <button>Shop</button>
-                </div> */}
+                    <button>SHOP NOW</button>
+                </div>
             </div>
         </div>
     )

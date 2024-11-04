@@ -42,10 +42,66 @@ img {
 
 
 .text-overlay-1 {
-    position: absolute; /* Position the text overlay absolutely */
-    top: 35%;           /* Center vertically */
-    left: 10%;          /* Center horizontally */
-    transform: translate(-50%, -50%); /* Offset the position */
-    color: black;       /* Change text color as needed */
-    text-align: center; /* Center the text */
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: .9vw;
+    font-family: 'Dela Gothic One', Arial;
+    text-align: left;
+}
+
+.text-overlay-2 {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    transform: translate(270%, -50%);
+    color: white;
+    text-align: center;
+    font-size: .9vw;
+    font-family: 'Dela Gothic One', Arial;
+    text-align: left;
+}
+
+.text-overlay-3 {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: .9vw;
+    font-family: 'Dela Gothic One', Arial;
+    text-align: left;
+}
+
+.text-overlay-4 {
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    transform: translate(270%, -50%);
+    color: white;
+    text-align: center;
+    font-size: .9vw;
+    font-family: 'Dela Gothic One', Arial;
+    text-align: left;
+}
+
+
+button{
+    padding: 10px 15px;
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    font-family: Helvetica, Arial;
+    font-weight: bold;
+    color:black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
 }
