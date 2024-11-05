@@ -3,10 +3,15 @@
     src: url('../Assets/Fonts/streetvertising-bold-public.ttf');
 }
 
+.shopping-area img{
+    width: 100%;
+    height: auto;
+}
+
 .shopping-area {
     display: flex;
     justify-content: space-between;
-    height: 80vh;
+    /* height: 112.8vh; */
 }
 
 .product {

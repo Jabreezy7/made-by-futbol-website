@@ -11,7 +11,7 @@
     cursor: pointer;
 }
 
-img {
+.featured img {
     max-height: 450px;
     width: 100%;
 }

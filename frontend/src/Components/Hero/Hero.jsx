@@ -6,11 +6,13 @@ import image_1 from '../Assets/Images/Photoshoot-Images/Edited-Images/1-MBF-min.
 import image_2 from '../Assets/Images/Photoshoot-Images/Edited-Images/2-MBF-min.png'
 import image_3 from '../Assets/Images/Photoshoot-Images/Edited-Images/3-MBF-min.png'
 
+import hero_image from '../Assets/Images/Dynamic-Images/Hero-1.webp'
+
 export const Hero = () => {
     return (
-
+        
         <div className="shopping-area">
-            <div className="product">
+            {/* <div className="product">
                 <img src={image_1} loading='lazy' alt="Product 1" />
                 <a href="" className='overlay-text'>SHOP ALL</a>
             </div>
@@ -21,7 +23,8 @@ export const Hero = () => {
             <div className="product">
                 <img src={image_3} loading='lazy' alt='Product 3' />
                 <a href="" className='overlay-text'>SHOP BEST SELLERS</a>
-            </div>
+            </div> */}
+            <img src={hero_image} alt="" />
         </div>
 
     )
