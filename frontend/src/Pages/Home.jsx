@@ -4,7 +4,7 @@ import Popular from '../Components/Popular/Popular'
 import Featured from '../Components/Featured/Featured'
 import NewDrops from '../Components/NewDrops/NewDrops'
 
-// import Footer from '../Components/Footer/Footer'
+import Footer from '../Components/Footer/Footer'
 
 export const Home = () => {
   return (
@@ -13,7 +13,7 @@ export const Home = () => {
       <Popular/>
       <Featured/>
       <NewDrops/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   )
 }
