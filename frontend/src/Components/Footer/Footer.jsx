@@ -10,7 +10,7 @@ export const Footer = () => {
                 <p>Subscribe to receive updates, access to exclusive
                     deals, and more.
                 </p>
-                <input type="email" />
+                <input type="email" placeholder="Your Email" />
                 <button>SUBSCRIBE</button>
             </div>
 

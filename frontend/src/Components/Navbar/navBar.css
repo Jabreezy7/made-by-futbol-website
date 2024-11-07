@@ -6,11 +6,12 @@
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0px;
     box-shadow: 0 1px 3px -2px black;
     font-family: 'Streetvertising', sans-serif;
     padding: 0 .25rem;
+    width: 100%;
 }
 
 .nav-logo {
@@ -18,13 +19,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-right: -70px; */
     cursor: pointer;
-
+    max-width: 140px;
 }
 
 .nav-logo img {
-    width: 10rem;
+    width: 100%;
     height: auto;
 }
 
@@ -33,14 +33,12 @@
     align-items: center;
     list-style: none;
     gap: 3.125rem;
-    justify-self: flex-start;
+    margin-left: 20px;
 }
 
 .nav-menu-left li {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: .18rem;
     cursor: pointer;
 }
@@ -57,8 +55,8 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    left: 10px;
     gap: 5px;
+    margin-right: 20px;
 }
 
 
@@ -70,7 +68,6 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    /* margin: 0 20 0 20; */
 }
 
 .nav-cart-count {
@@ -118,7 +115,6 @@
     border: none;
     outline: none;
     background: transparent;
-    flex: 1;
     padding: 10px;
     font-size: 16px;
 }
