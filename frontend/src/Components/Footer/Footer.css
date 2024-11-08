@@ -86,11 +86,28 @@
 
 
 .newsletter img {
-    margin-top: 20px;
     width: 23px;
     height: 23px;
     display: block;
 }
+
+.social-media {
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+    margin-left: -20px;
+}
+
+.social-media img {
+    margin-left: -50px;
+}
+
+/* .newsletter{
+    display: flex;
+    flex-direction: column;
+
+} */
+
 
 
 

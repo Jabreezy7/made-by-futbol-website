@@ -2,6 +2,7 @@ import React from 'react'
 import './Footer.css'
 
 import instagram_logo from '../Assets/Images/Icons/instagram-brands-solid.svg'
+import tiktok_logo from '../Assets/Images/Icons/tiktok-brands-solid.svg'
 
 export const Footer = () => {
     return (
@@ -14,7 +15,10 @@ export const Footer = () => {
                 </p>
                 <input type="email" placeholder="Your Email" />
                 <button>SUBSCRIBE</button>
+                <div className="social-media">
                 <a href=""><img src={instagram_logo} alt="" /></a>
+                <a href=""><img src={tiktok_logo} alt="" /></a>
+                </div>
             </div>
 
             <div className="about-us">
