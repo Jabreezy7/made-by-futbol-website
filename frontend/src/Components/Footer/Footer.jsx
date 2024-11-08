@@ -16,8 +16,8 @@ export const Footer = () => {
                 <input type="email" placeholder="Your Email" />
                 <button>SUBSCRIBE</button>
                 <div className="social-media">
-                <a href=""><img src={instagram_logo} alt="" /></a>
-                <a href=""><img src={tiktok_logo} alt="" /></a>
+                <a href="https://www.instagram.com/mbfkits/" target="_blank" ><img src={instagram_logo} alt="" /></a>
+                <a href="https://www.tiktok.com/@mbfkits" target="_blank" ><img src={tiktok_logo} alt="" /></a>
                 </div>
             </div>
 
