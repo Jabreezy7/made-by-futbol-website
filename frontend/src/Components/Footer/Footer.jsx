@@ -1,6 +1,8 @@
 import React from 'react'
 import './Footer.css'
 
+import instagram_logo from '../Assets/Images/Icons/instagram-brands-solid.svg'
+
 export const Footer = () => {
     return (
         <div className="footer">
@@ -12,6 +14,7 @@ export const Footer = () => {
                 </p>
                 <input type="email" placeholder="Your Email" />
                 <button>SUBSCRIBE</button>
+                <a href=""><img src={instagram_logo} alt="" /></a>
             </div>
 
             <div className="about-us">
