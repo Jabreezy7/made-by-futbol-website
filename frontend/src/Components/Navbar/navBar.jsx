@@ -2,8 +2,8 @@ import React from "react"
 import "./navBar.css"
 import { useState } from "react"
 
-import logo from "../Assets/Images/Logos/MBF_LOGO.png"
-import cart_icon from "../Assets/Images/Icons/shopping-bag.png"
+import logo from "../Assets/Images/Logos/MBF_LOGO_White.png"
+import cart_icon from "../Assets/Images/Icons/shopping-bag-white.png"
 import search_icon from "../Assets/Images/Icons/magnifying-glass.png"
 import { Link } from "react-router-dom"
 
@@ -55,7 +55,7 @@ export const Navbar = () => {
                       <Link style={{ textDecoration: 'none' }} to='/cart'>
                           <img src={cart_icon} alt="" />
                       </Link>
-                      <div className="nav-cart-count">0</div>
+                      <div className="nav-cart-count">3</div>
                   </div>
               </div>
           </div>
