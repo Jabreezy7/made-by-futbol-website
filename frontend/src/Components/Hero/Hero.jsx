@@ -27,6 +27,11 @@ export const Hero = () => {
                 <a href="" className='overlay-text'>SHOP BEST SELLERS</a>
             </div> */}
             <img src={hero_image1} alt="" />
+            <div className="hero-text-overlay">
+                <h1>NEYMAR TEE</h1>
+                <p>Inspired by Brazil's Greatest Scorer</p>
+                <button>SHOP NOW</button>
+            </div>
         </div>
 
     )

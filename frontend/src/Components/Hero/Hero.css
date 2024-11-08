@@ -3,14 +3,19 @@
     src: url('../Assets/Fonts/streetvertising-bold-public.ttf');
 }
 
+@font-face {
+    font-family: 'Dela Gothic One';
+    src: url('../Assets/Fonts/DelaGothicOne-Regular.ttf');
+}
+
 .shopping-area img {
     width: 100%;
     height: auto;
 }
 
 .shopping-area {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     /* height: 112.8vh; */
 }
 
@@ -55,3 +60,21 @@
     /* If I ever want to flip text this is a pretty cool effect */
     transform: rotateY(180deg);
 }
+
+
+/* .hero-text-overlay {
+    position: absolute;
+    color: white;
+    font-family: 'Dela Gothic One', Arial, sans-serif;
+    top: 25%;
+    left: 15%;
+    transform: translate(-20%, 50%);
+} */
+
+/* .hero-text-overlay h1 {
+    font-size: 8vw;
+}
+
+.hero-text-overlay p {
+    font-size: 2vw;
+} */
