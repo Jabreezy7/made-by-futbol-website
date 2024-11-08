@@ -62,19 +62,24 @@
 }
 
 
-/* .hero-text-overlay {
+.hero-text-overlay {
     position: absolute;
     color: white;
     font-family: 'Dela Gothic One', Arial, sans-serif;
     top: 25%;
-    left: 15%;
+    left: 17%;
     transform: translate(-20%, 50%);
-} */
+}
 
-/* .hero-text-overlay h1 {
+.hero-text-overlay h1 {
     font-size: 8vw;
+    margin-bottom: 0px;
 }
 
 .hero-text-overlay p {
     font-size: 2vw;
-} */
+}
+
+.hero-text-overlay button {
+    padding: 14.5px 29px;
+}
