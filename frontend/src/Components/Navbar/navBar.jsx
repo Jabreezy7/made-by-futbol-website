@@ -15,7 +15,7 @@ export const Navbar = () => {
   return (
       <>
           <div className="promo-header">
-              FREE SHIPPING
+              RESTOCK
           </div>
 
           <div className='navbar'>

@@ -8,6 +8,10 @@
     src: url('../Assets/Fonts/DelaGothicOne-Regular.ttf');
 }
 
+/* * {
+    user-select: none;
+} */
+
 
 .navbar {
     display: flex;

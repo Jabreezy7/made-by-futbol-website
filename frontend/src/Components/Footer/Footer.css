@@ -4,7 +4,6 @@
 }
 
 
-
 .footer {
     width: 100%;
     display: flex;
@@ -101,13 +100,6 @@
 .social-media img {
     margin-left: -50px;
 }
-
-
-/* .newsletter{
-    display: flex;
-    flex-direction: column;
-
-} */
 
 
 
